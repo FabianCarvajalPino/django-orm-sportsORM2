@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sports Leagues</title>
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	</head>
+	<body>
+		<h1>lvl 1</h1>
+		<h2>1</h2>
+		{% for tarea in tarea1 %}
+			{{tarea.name}}
+		{% endfor %}
+		<h2>2</h2>
+		{% for tarea in tarea2 %}
+			{{tarea.name}}
+		{% endfor %}
+		<h2>3</h2>
+		{% for tarea in tarea3 %}
+			<ul>
+				<li>{{tarea.name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>4</h2>
+		{% for tarea in tarea4 %}
+			<ul>
+				<li>{{tarea.name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>5</h2>
+		{% for tarea in tarea5 %}
+			<ul>
+				<li>{{tarea.name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>6</h2>
+		{% for tarea in tarea6 %}
+			<ul>
+				<li>{{tarea.name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>7</h2>
+		{% for tarea in tarea7 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>8</h2>
+		{% for tarea in tarea8 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>9</h2>
+		{% for tarea in tarea9 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>10</h2>
+		{% for tarea in tarea10 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>11</h2>
+		{% for tarea in tarea11 %}
+			<ul>
+				<li>{{tarea.location}} / {{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>12</h2>
+		{% for tarea in tarea12 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>13</h2>
+		{% for tarea in tarea13 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>14</h2>
+		{% for tarea in tarea14 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>15</h2>
+		{% for tarea in tarea15 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>16</h2>
+		{% for tarea in tarea16 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+			-----------------------------------------------------------------
+
+		<h1>lvl 2</h1>
+		<h2>1</h2>
+		{% for tarea in lvl2tarea1 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>2</h2>
+		{% for tarea in lvl2tarea2 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>3</h2>
+		{% for tarea in lvl2tarea3 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>4</h2>
+		{% for tarea in lvl2tarea4 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>5</h2>
+		{% for tarea in lvl2tarea5 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>6</h2>
+		{% for tarea in lvl2tarea6 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+		<h2>7</h2>
+		{% for tarea in lvl2tarea7 %}
+			<ul>
+				<li>{{tarea.name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>8</h2>
+		{% for tarea in lvl2tarea8 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>9</h2>
+		{% for tarea in lvl2tarea9 %}
+			<ul>
+				<li>{{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>10</h2>
+		{% for tarea in lvl2tarea10 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+
+		<h2>11</h2>
+		{% for tarea in lvl2tarea11 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>12</h2>
+		{% for tarea in lvl2tarea12 %}
+			<ul>
+				<li>{{tarea.location}} {{tarea.team_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>13</h2>
+		{% for tarea in lvl2tarea13 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}}</li>
+			</ul>
+		{% endfor %}
+
+		<h2>14</h2>
+		{% for key, value in lvl2tarea14.items %}
+			<ul>
+				<li>{{key}} {{value}}</li>
+			</ul>
+		{% endfor %}
+		<h2>15</h2>
+		{% for tarea in lvl2tarea15 %}
+			<ul>
+				<li>{{tarea.first_name}} {{tarea.last_name}} {{tarea.all_teams__count}}</li>
+			</ul>
+		{% endfor %}
+		<h1>Leagues</h1>
+		<ol>
+			{% for league in leagues %}
+				<li>{{league.name}} / {{league.sport}}</li>
+
+				{% empty %}
+				<p>No leagues found.  Try <code>python manage.py loaddata data.json</code>, or, if that doesn't work, going <a href="{% url 'make_data' %}">here</a> (but be prepared to wait).</p>
+			{% endfor %}
+		</ol>
+		<h1>Teams</h1>
+		<ol>
+			{% for team in teams %}
+				<li>{{team.location}} {{team.team_name}}</li>
+			{% empty %}
+				<p>No teams found.  Try <code>python manage.py loaddata data.json</code>, or, if that doesn't work, going <a href="{% url 'make_data' %}">here</a> (but be prepared to wait).</p>
+			{% endfor %}
+		</ol>
+		<h1>Players</h1>
+		<ol>
+			{% for player in players %}
+				<li>{{player.first_name}} {{player.last_name}}</li>
+			{% empty %}
+				<p>No teams found.  Try <code>python manage.py loaddata data.json</code>, or, if that doesn't work, going <a href="{% url 'make_data' %}">here</a> (but be prepared to wait).</p>
+			{% endfor %}
+		</ol>
+	</body>
+</html>
